@@ -1,1 +1,5 @@
-/* This is a dashboard contents. */
+/* This is dashboard contents.
+ *
+ * Author: k.kou
+ *
+*/
