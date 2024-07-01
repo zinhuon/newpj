@@ -1,0 +1,67 @@
+diff --git a/changes.patch b/changes.patch
+new file mode 100644
+index 0000000..1830ab4
+--- /dev/null
++++ b/changes.patch
+@@ -0,0 +1,11 @@
++diff --git a/parts/_mydb/_connect.php b/parts/_mydb/_connect.php
++deleted file mode 100644
++index 2b4d01f..0000000
++--- a/parts/_mydb/_connect.php
+++++ /dev/null
++@@ -1,5 +0,0 @@
++-<?php
++-/*
++- * This is connect files.
++-*/
++-?>
+diff --git a/index.html b/index.html
+index 313f763..cbc0e38 100644
+--- a/index.html
++++ b/index.html
+@@ -1,3 +1,4 @@
+ <!-- This is a index html -->
+ <h1>Index html</h1>
+-<p>This is a index html</p>
++<p>This is a index html.</p>
++<h2>h2 tag</h2>
+diff --git a/js/myjs.js b/js/mycript.js
+similarity index 100%
+rename from js/myjs.js
+rename to js/mycript.js
+diff --git a/parts/_mydb/_config.php b/parts/_mydb/_config.php
+new file mode 100644
+index 0000000..43c0f50
+--- /dev/null
++++ b/parts/_mydb/_config.php
+@@ -0,0 +1,5 @@
++<?php
++/*
++ * This is database config.
++ */
++?>
+diff --git a/parts/_mydb/_connect.php b/parts/_mydb/_connect.php
+new file mode 100644
+index 0000000..2b4d01f
+--- /dev/null
++++ b/parts/_mydb/_connect.php
+@@ -0,0 +1,5 @@
++<?php
++/*
++ * This is connect files.
++*/
++?>
+diff --git a/parts/dashboard/dashboard-cts.php b/parts/dashboard/dashboard-cts.php
+new file mode 100644
+index 0000000..ca5df54
+--- /dev/null
++++ b/parts/dashboard/dashboard-cts.php
+@@ -0,0 +1 @@
++/* This is a dashboard contents. */
+diff --git a/parts/dashboard/framework.php b/parts/dashboard/framework.php
+new file mode 100644
+index 0000000..93ceadd
+--- /dev/null
++++ b/parts/dashboard/framework.php
+@@ -0,0 +1 @@
++/* This a dashboard framework. */
